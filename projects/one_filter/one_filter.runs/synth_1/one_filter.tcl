@@ -22,23 +22,21 @@ create_project -in_memory -part xc7z020clg400-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir /home/nicolai/one_filter/one_filter.cache/wt [current_project]
-set_property parent.project_path /home/nicolai/one_filter/one_filter.xpr [current_project]
+set_property webtalk.parent_dir /home/nicolai/Lydpult/projects/one_filter/one_filter.cache/wt [current_project]
+set_property parent.project_path /home/nicolai/Lydpult/projects/one_filter/one_filter.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:zybo-z7-20:part0:1.0 [current_project]
-set_property ip_output_repo /home/nicolai/one_filter/one_filter.cache/ip [current_project]
+set_property ip_output_repo /home/nicolai/Lydpult/projects/one_filter/one_filter.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library ieee_proposed /home/nicolai/Xilinx/Vivado/2018.3/scripts/rt/data/fixed_pkg_2008.vhd
-read_vhdl -library xil_defaultlib {
-  /mnt/hgfs/Lydpult/memory3.vhd
-  /mnt/hgfs/Lydpult/types.vhd
-}
+read_vhdl -library xil_defaultlib /home/nicolai/Lydpult/src/memory3.vhd
 read_vhdl -vhdl2008 -library xil_defaultlib {
-  /mnt/hgfs/Lydpult/bram_block.vhd
-  /mnt/hgfs/Lydpult/filter.vhd
-  /mnt/hgfs/Lydpult/ram_control.vhd
-  /mnt/hgfs/Lydpult/one_filter.vhd
+  /home/nicolai/Lydpult/src/types.vhd
+  /home/nicolai/Lydpult/src/bram_block.vhd
+  /home/nicolai/Lydpult/src/filter.vhd
+  /home/nicolai/Lydpult/src/ram_control.vhd
+  /home/nicolai/Lydpult/src/one_filter.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

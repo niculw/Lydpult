@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="/home/nicolai/one_filter/one_filter.xpr">
+<Project Version="7" Minor="39" Path="/home/nicolai/Lydpult/projects/one_filter/one_filter.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="90141d052e484459b6af97b717a233e0"/>
@@ -61,44 +61,44 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../Xilinx/Vivado/2018.3/scripts/rt/data/fixed_pkg_2008.vhd">
+      <File Path="$PPRDIR/../../../Xilinx/Vivado/2018.3/scripts/rt/data/fixed_pkg_2008.vhd">
         <FileInfo>
           <Attr Name="Library" Val="ieee_proposed"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/memory3.vhd">
+      <File Path="$PPRDIR/../../src/memory3.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/types.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/bram_block.vhd">
+      <File Path="$PPRDIR/../../src/types.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/filter.vhd">
+      <File Path="$PPRDIR/../../src/bram_block.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/ram_control.vhd">
+      <File Path="$PPRDIR/../../src/filter.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../mnt/hgfs/Lydpult/one_filter.vhd">
+      <File Path="$PPRDIR/../../src/ram_control.vhd">
+        <FileInfo SFType="VHDL2008">
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../src/one_filter.vhd">
         <FileInfo SFType="VHDL2008">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>

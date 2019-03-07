@@ -71,11 +71,11 @@ begin
     stimuli : process
     begin
         -- EDIT Adapt initialization as needed
-        b0_in <= '0';
-        b1_in <= '0';
-        b2_in <= '0';
-        a1_in <= '0';
-        a2_in <= '0';
+        b0_in <= "011000110000100110";
+        b1_in <= "111011001101111011";
+        b2_in <= "001001101001000111";
+        a1_in <= "111011001110000011";
+        a2_in <= "000000110010110100";
         x <= (others => '0');
         ch_in <= '0';
         ch_delayed_in <= '0';
