@@ -1,0 +1,62 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/nicolai/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 90141d052e484459b6af97b717a233e0 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot one_filter_func_synth xil_defaultlib.one_filter -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.std_logic_textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(read_width_a=18,read_w...]
+Compiling architecture structure of entity xil_defaultlib.memory3 [memory3_default]
+Compiling architecture structure of entity xil_defaultlib.memory3_7 [memory3_7_default]
+Compiling architecture structure of entity xil_defaultlib.memory3_8 [memory3_8_default]
+Compiling architecture structure of entity xil_defaultlib.memory3_9 [memory3_9_default]
+Compiling architecture structure of entity xil_defaultlib.memory3_10 [memory3_10_default]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(ram_mode="SDP",read_wi...]
+Compiling architecture structure of entity xil_defaultlib.\memory3__parameterized0\ [\memory3__parameterized0_default...]
+Compiling architecture structure of entity xil_defaultlib.\memory3__parameterized0_11\ [\memory3__parameterized0_11_defa...]
+Compiling architecture structure of entity xil_defaultlib.\memory3__parameterized0_12\ [\memory3__parameterized0_12_defa...]
+Compiling architecture structure of entity xil_defaultlib.\memory3__parameterized0_13\ [\memory3__parameterized0_13_defa...]
+Compiling architecture structure of entity xil_defaultlib.bram_block [bram_block_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,dreg=0,mreg=0,u...]
+Compiling architecture structure of entity xil_defaultlib.unimacro_ADDSUB_MACRO [unimacro_addsub_macro_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_ADDSUB_MACRO_0 [unimacro_addsub_macro_0_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_ADDSUB_MACRO_1 [unimacro_addsub_macro_1_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11010101010101010101...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1000000000000000")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000000000000000000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000001111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000111100001110")(0...]
+Compiling architecture structure of entity xil_defaultlib.unimacro_ADDSUB_MACRO_2 [unimacro_addsub_macro_2_default]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,dreg=0)(1,8)(1,...]
+Compiling architecture structure of entity xil_defaultlib.unimacro_MULT_MACRO [unimacro_mult_macro_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_MULT_MACRO_3 [unimacro_mult_macro_3_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_MULT_MACRO_4 [unimacro_mult_macro_4_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_MULT_MACRO_5 [unimacro_mult_macro_5_default]
+Compiling architecture structure of entity xil_defaultlib.unimacro_MULT_MACRO_6 [unimacro_mult_macro_6_default]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.filter [filter_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture structure of entity xil_defaultlib.ram_control [ram_control_default]
+Compiling architecture fdse_v of entity unisim.FDSE [fdse_default]
+Compiling architecture structure of entity xil_defaultlib.one_filter
+Built simulation snapshot one_filter_func_synth

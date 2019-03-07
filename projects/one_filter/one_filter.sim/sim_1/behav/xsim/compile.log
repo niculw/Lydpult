@@ -1,0 +1,12 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/nicolai/Xilinx/Vivado/2018.3/scripts/rt/data/fixed_pkg_2008.vhd" into library ieee_proposed
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/memory3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'memory3'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/types.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/bram_block.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bram_block'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/filter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'filter'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/ram_control.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ram_control'
+INFO: [VRFC 10-163] Analyzing VHDL file "/mnt/hgfs/Lydpult/one_filter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'one_filter'

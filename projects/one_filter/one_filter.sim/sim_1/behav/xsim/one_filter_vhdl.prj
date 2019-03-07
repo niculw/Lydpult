@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl ieee_proposed  \
+"../../../../../Xilinx/Vivado/2018.3/scripts/rt/data/fixed_pkg_2008.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../../../../mnt/hgfs/Lydpult/memory3.vhd" \
+"../../../../../../../mnt/hgfs/Lydpult/types.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../../../../mnt/hgfs/Lydpult/bram_block.vhd" \
+"../../../../../../../mnt/hgfs/Lydpult/filter.vhd" \
+"../../../../../../../mnt/hgfs/Lydpult/ram_control.vhd" \
+"../../../../../../../mnt/hgfs/Lydpult/one_filter.vhd" \
+
+# Do not sort compile order
+nosort

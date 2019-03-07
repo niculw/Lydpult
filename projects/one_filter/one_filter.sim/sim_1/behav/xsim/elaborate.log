@@ -1,0 +1,36 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/nicolai/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 90141d052e484459b6af97b717a233e0 --incr --debug typical --relax --mt 8 -L ieee_proposed -L xil_defaultlib -L secureip --snapshot one_filter_behav xil_defaultlib.one_filter -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.types
+Compiling package ieee_proposed.fixed_pkg
+Compiling package ieee.math_real
+Compiling package ieee.std_logic_textio
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling package unimacro.vcomponents
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture rtl of entity xil_defaultlib.ram_control [\ram_control(address=9)\]
+Compiling architecture rtl of entity xil_defaultlib.memory3 [\memory3(addr_size=9,data_size=1...]
+Compiling architecture rtl of entity xil_defaultlib.memory3 [\memory3(addr_size=9,data_size=2...]
+Compiling architecture structure of entity xil_defaultlib.bram_block [\bram_block(address=9)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,dreg=0)(1,8)(1,...]
+Compiling architecture mult of entity unimacro.MULT_MACRO [\MULT_MACRO(device="7SERIES",wid...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,dreg=0,mreg=0,u...]
+Compiling architecture addsub of entity unimacro.ADDSUB_MACRO [\ADDSUB_MACRO(device="7SERIES",w...]
+Compiling architecture struct of entity xil_defaultlib.filter [filter_default]
+Compiling architecture structure of entity xil_defaultlib.one_filter
+Built simulation snapshot one_filter_behav
